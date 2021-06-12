@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/BogdanBeerDestroyer/lab06.svg?branch=master)](https://travis-ci.org/BogdanBeerDestroyer/lab06)
+
 #Шумилишский ИУ8-22 Лабораторная 6
+
 ##CMakeLists:
 
 ```
