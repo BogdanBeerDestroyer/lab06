@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.org/BogdanBeerDestroyer/lab06.svg?branch=master)](https://travis-ci.org/BogdanBeerDestroyer/lab06)
 
-#Шумилишский ИУ8-22 Лабораторная 6
+Шумилишский ИУ8-22 Лабораторная 6
 
-##CMakeLists:
+CMakeLists:
 
 ```
 cmake_minimum_required(VERSION 3.4)
@@ -36,7 +36,7 @@ target_link_libraries(solver formatter formatter_ex solver_lib)
 
 include(CPackConfig.cmake)
 ```
-##CPackConfig.cmake:
+CPackConfig.cmake:
 
 ```
 include(InstallRequiredSystemLibraries)
@@ -62,7 +62,7 @@ set(CPACK_DEBIAN_PACKAGE_RELEASE 1)
 
 include(CPack)
 ```
-##Cобираем архив
+Cобираем архив
 ```
 $ cmake -H. -B_build
 $ cmake --build _build
@@ -72,7 +72,7 @@ $ cd ..
 ```
 
 
-##Заполняем .travis.yml:
+Заполняем .travis.yml:
 ```
 language: cpp
 
